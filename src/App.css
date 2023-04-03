@@ -1,0 +1,71 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #B2BABB;
+  height: 70px;
+  padding: 20px;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-header ul li
+{
+   display: inline-block;
+   margin-left: 20px;
+}
+.App-header ul li a
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+.Userlist {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin-top: 30px;
+  margin-left: 2.5%;
+}
+
+
+.Userlist td, .Userlist th {
+  border: 1px solid  #b3b1b1;
+ 
+  padding: 8px;
+  
+  
+}
+
+.Userlist tr:nth-child(even){background-color: #f2f2f2;}
+
+.Userlist tr:hover {background-color: #ddd;}
+
+.Userlist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:#566573;
+  color: white;
+}
+.welcome {
+  text-align: center;
+  padding-top: 100px;
+}
+.logo-img {
+  margin-top: -85px;
+  margin-left: 1300px !important;
+}
+.no-data {
+  margin-left: 20px;
+}
